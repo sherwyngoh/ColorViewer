@@ -6,6 +6,7 @@ begin
   require 'bundler'
   Bundler.require
   require 'bubble-wrap/all'
+  require 'teacup'
   
 rescue LoadError
 end

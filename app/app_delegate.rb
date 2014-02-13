@@ -1,8 +1,8 @@
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
 
-    puts "Hello!  You just launched: #{App.name}, \n location: (#{App.documents_path})"
-    
+    puts "Hello!  \n You just launched: #{App.name} \n location: (#{App.documents_path})"
+
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
     
     @window.backgroundColor = UIColor.lightGrayColor
